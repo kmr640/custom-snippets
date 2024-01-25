@@ -1,0 +1,12 @@
+{
+  "Map an array ts": {
+    "scope": "javascript,typescript",
+    "prefix": "tsmarr",
+    "body": [
+      "const ${3:arrayName}: ${4|number[],string[],boolean[],any[],customType?[]|} = ${TM_SELECTED_TEXT:$1}.map(($2) => {",
+      "\treturn $2 // add logic",
+      "});"
+    ],
+    "description": "Map over an array"
+  }
+}
